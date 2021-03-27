@@ -2,6 +2,8 @@
 
 https://robrace.dev/build-a-twitter-clone-with-rails-hotwire/
 
+(Exemplo)[https://github.com/rcoproc/blabler_twitter_clone/blob/main/public/blaber_twitter.png]
+
 ## Turbo Streams
 
 Atualizações parciais de página entregues de forma assíncrona por meio de uma conexão 
