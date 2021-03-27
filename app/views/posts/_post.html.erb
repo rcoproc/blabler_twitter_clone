@@ -14,5 +14,6 @@
     <a class="card-link" href="<%= post_like_path(post) %>">
       Likes (<%= post.likes_count %>)
     </a>
+    <%= link_to("Delete Post", post_destroy_path(post), class: "card-link") %>
   </div>
 </div>

@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   resources :posts, only: %i[index create] do
     get 'like'
     get 'repost'
+    get 'destroy'
   end
 
   root to: 'posts#index'
